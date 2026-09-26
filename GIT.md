@@ -1,6 +1,6 @@
 # VISITORS.md in git and markdown
 
-> Version 0.6.0 · Does [SPEC.md](SPEC.md) with plain git and markdown files. (In standards talk: a binding.) Until 0.5.0 this text was the spec itself; section numbers are unchanged, so an older "SPEC §8" is §8 here.
+> Version 0.7.0 · Does [SPEC.md](SPEC.md) with plain git and markdown files. (In standards talk: a binding.) Until 0.5.0 this text was the spec itself; section numbers are unchanged, so an older "SPEC §8" is §8 here.
 
 One way to do the framework, with plain git and markdown. It is not the only way. Where this document and the framework disagree, the framework wins and this document has a bug.
 
@@ -98,7 +98,7 @@ Whoever keeps memory MUST record every visit it makes; an assistant always does.
 A visit record is one JSON line. Its fields are the arrival declaration the framework asks for:
 
 ```json
-{"start":"2026-09-18T14:02:00Z","end":"2026-09-18T14:20:00Z","principal":"alice@github.com","assistant":"ada+alice@github.com","agent":"Claude Opus 5 (Claude Code)","memory":"github.com/alice/notes","logs":"visit","spec":"0.6.0","role":"worker","mode":"write"}
+{"start":"2026-09-18T14:02:00Z","end":"2026-09-18T14:20:00Z","principal":"alice@github.com","assistant":"ada+alice@github.com","agent":"Claude Opus 5 (Claude Code)","memory":"github.com/alice/notes","logs":"visit","spec":"0.7.0","role":"worker","mode":"write"}
 ```
 
 - `memory` names where the session keeps memory (an assistant's home; a harness's store), or `none`. Never the person.
@@ -123,13 +123,13 @@ A visit record is one JSON line. Its fields are the arrival declaration the fram
 The file opens with YAML frontmatter:
 
 ```yaml
-visitors-spec: 0.6.0
+visitors-spec: 0.7.0
 owner: alice@github.com
 members: [alice@github.com, bob@github.com]
 visitors: none             # none | [identities] | @issuer | any
 issuers: [github.com]
 assistants: allowed        # allowed | none
-min-spec: 0.6.0            # optional. the oldest spec a visiting assistant may follow
+min-spec: 0.7.0            # optional. the oldest spec a visiting assistant may follow
 visit-log: visit           # none | visit | file
 visits: visits/            # a path | git
 board: board/              # a path | a URL | none
@@ -216,7 +216,7 @@ The names are fixed so that any agent, and any tool, can tell a home by looking.
 **`ASSISTANT_ID.md`** is small and safe to show. It SHOULD hold nothing the person wouldn't put in a commit trailer. Its `visitors-spec` is the version the assistant follows, which a space may test against its `min-spec` (§7).
 
 ```yaml
-visitors-spec: 0.6.0
+visitors-spec: 0.7.0
 id: ada+alice@github.com
 name: Ada
 principal: alice@github.com

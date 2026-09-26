@@ -2,9 +2,15 @@
 
 Follows [Semantic Versioning](https://semver.org/).
 
-## Unreleased
+## 0.7.0 (2026-09-26)
 
-**New: `HANDOFF.md`, the third framework page.** `AGENTS.md` says how work is done, `VISITORS.md` who may be in a space, `HANDOFF.md` how a person's intent becomes a plan in a space and how the result comes back. A person asks; a worker in the space plans; the person approves; the worker executes; a director relays, records and verifies. Nobody outside a space plans its work. Roles: person, director, desk, ask, plan, worker, report, transport, and cross-space work through one primary space. It uses `SPEC.md`'s terms: the worker is its worker, the director is a visitor outside its desk, and an ask or plan reaches a worker as its person's direction, not through the board. Tool-agnostic; bindings come later, one per tool, the way `GIT.md` binds `SPEC.md`. Draft, on the same version line; ships with 0.7.0.
+**New: `HANDOFF.md`, the third framework page.** `AGENTS.md` says how work is done, `VISITORS.md` who may be in a space, `HANDOFF.md` how a person's intent becomes a plan in a space and how the result comes back. A person asks; a worker in the space plans; the person approves; the worker executes; a director relays, records and verifies. Nobody outside a space plans its work. Roles: person, director, desk, ask, plan, worker, report, transport, and cross-space work through one primary space. It uses `SPEC.md`'s terms: the worker is its worker, the director is a visitor outside its desk, and an ask or plan reaches a worker as its person's direction, not through the board. Tool-agnostic, on the same version line as `SPEC.md`.
+
+**Changed in `HANDOFF.md` before release,** from writing the first binding: anything a tool inlines into an ask or a plan (instructions, memory) is part of the text the person gave or approved (it said only plans, and tools inline at ask time); and the approved plan is kept unchanged, apart from the report, where a fresh worker can read it (reports are rewritten whole, so a plan kept only in one is lost).
+
+**New: `HANDOFF-herdr-projects.md`, the first binding.** How [herdr-projects](https://github.com/eliasstravik/herdr-projects) carries each role, the way `GIT.md` binds `SPEC.md`: the coordinator is the director, the project folder is the desk (its root inside a space the person owns, one project per space), a thread is the worker, and its first report is the plan, approved with an `Approve plan` line in `## Next` and kept in `library/plan.md`. Ends with where the tool and the framework don't meet: provenance of typed-in text, reports copied home whatever the carry-out, and the coordinator answering a worker's prompts.
+
+**Templates** pin `visitors-spec: 0.7.0`. 0.7.0 changes nothing in a front desk or the home files, so an upgrade from 0.6.0 is only the pin.
 
 ## 0.6.0 (2026-09-22)
 

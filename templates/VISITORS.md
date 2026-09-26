@@ -1,11 +1,11 @@
 ---
-visitors-spec: 0.6.0
+visitors-spec: 0.7.0
 owner: alice@github.com    # exactly one identity
 members: [alice@github.com, bob@github.com]   # who may work here
 visitors: none             # none | [identities] | @issuer | any — who may enter beyond members, read-only plus the board
 issuers: [github.com]
 assistants: allowed        # allowed | none
-# min-spec: 0.6.0          # optional: admit only assistants following this spec or newer
+# min-spec: 0.7.0          # optional: admit only assistants following this spec or newer
 visit-log: visit           # none | visit | file
 visits: visits/            # a path | git (GIT.md §6)
 board: board/              # a path | a URL | none
@@ -14,7 +14,7 @@ carry-out: with-attribution   # open | with-attribution | none (none for third-p
 
 # VISITORS.md
 
-Who may be in this space, what they may bring in, what they may take out, and what is recorded. What a worker may do here, and how, is in AGENTS.md. Spec: [VISITORS.md v0.6.0](https://github.com/galaxyblur/VISITORS.md).
+Who may be in this space, what they may bring in, what they may take out, and what is recorded. What a worker may do here, and how, is in AGENTS.md. Spec: [VISITORS.md v0.7.0](https://github.com/galaxyblur/VISITORS.md).
 
 ## Arrival
 

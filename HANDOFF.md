@@ -1,6 +1,6 @@
 # HANDOFF.md
 
-> Draft · Ships with VISITORS.md 0.7.0 (unreleased). Bindings come later, one per tool.
+> Version 0.7.0 · Bound to herdr-projects: [HANDOFF-herdr-projects.md](HANDOFF-herdr-projects.md)
 
 `AGENTS.md` says how work is done in a space. `VISITORS.md` says who may be in one. `HANDOFF.md` says how a person's intent becomes a plan in a space, how the plan is approved, and how the result comes back.
 
@@ -36,6 +36,7 @@ In short: a person asks; a worker in the space plans; the person approves; the w
 - Written by a worker in the space it concerns, with the space in view.
 - Carries: goal; requirements (must, must not); inputs (what it needs and where from); acceptance criteria (checkable); scope in and out; delivery (branch, proposal, or as granted); autonomy (what proceeds without asking, how many workers, how long); stop conditions; steps.
 - Approved by the person in the text the worker executes. Executable by a fresh worker from that text alone: sessions die, plans don't.
+- The approved text is kept unchanged, apart from the report, where a fresh worker can read it.
 - Anything the plan doesn't cover is an amendment, proposed the same way.
 - Stop conditions in every plan, whatever else it says: scope exceeded; an acceptance criterion can't be met; a decision only the person can make; anything outward or irreversible the plan didn't grant; a space the plan didn't name.
 - States: proposed → approved → running → delivered → accepted or closed.
@@ -60,7 +61,8 @@ In short: a person asks; a worker in the space plans; the person approves; the w
 
 - How asks and plans reach a worker and reports return. The tool's business: a terminal multiplexer, a board, a message, a file.
 - An ask or plan reaches the worker as its person's direction, not as a visitor's input to the space. The worker brings it in, as it brings in anything its person approved.
-- It shows provenance (the worker can tell the ask came through its person's director), keeps the report as a file, and adds nothing to a plan the person didn't approve. Anything a tool inlines (instructions, memory) is part of the approved text.
+- It shows provenance (the worker can tell the ask came through its person's director), keeps the report as a file, and adds nothing to a plan the person didn't approve.
+- Anything a tool inlines into an ask or a plan (instructions, memory) is part of the text the person gave or approved.
 - Automation in a transport acts only as an approved plan allows. Otherwise it observes, notifies, cleans up.
 
 ## Cross-space work

@@ -90,7 +90,7 @@ The prompt names neither the assistant nor the home, so it works unchanged for a
 
 **Upgrading.** In any space you own, or in your home, tell your agent: *adopt the latest VISITORS.md spec here.* [UPGRADING.md](UPGRADING.md) gives it the steps from each version to the next, the few questions it may ask, and the default for everything else. Only a space's owner changes its front desk; anyone else proposes through the board.
 
-**Requiring a version.** A space can set `min-spec: 0.6.0` in its front desk. An assistant that follows an older spec stays out, and its person's session goes on as a plain agent. `assistants: none` refuses every assistant.
+**Requiring a version.** A space can set `min-spec: 0.7.0` in its front desk. An assistant that follows an older spec stays out, and its person's session goes on as a plain agent. `assistants: none` refuses every assistant.
 
 **Showing who's working.** `assistants-visit --id [dir]` prints the resident's ID when `dir` is its home or a wallet space, and nothing anywhere else. Anything that labels a session can use it. For example, a Claude Code status line badge (`ADA`):
 
@@ -112,7 +112,8 @@ Name the assistant and the agent together: the assistant persists, and the agent
 
 - [SPEC.md](SPEC.md): the framework. Person, identity, agent and assistant, space, policy, board, home, worker and visitor. A two-minute read
 - [GIT.md](GIT.md): the spec done in git and markdown: fields, files, formats. This was the spec through 0.5.0
-- [HANDOFF.md](HANDOFF.md): how a person's ask becomes a plan in a space, is approved, and comes back as a result. Person, director, desk, ask, plan, worker, report, transport. Draft, ships with 0.7.0
+- [HANDOFF.md](HANDOFF.md): how a person's ask becomes a plan in a space, is approved, and comes back as a result. Person, director, desk, ask, plan, worker, report, transport
+- [HANDOFF-herdr-projects.md](HANDOFF-herdr-projects.md): HANDOFF.md done with [herdr-projects](https://github.com/eliasstravik/herdr-projects): which part of the plugin plays each role, what to set, and where they don't meet
 - [EXAMPLES.md](EXAMPLES.md): ten short stories of the spec in use. Start here
 - [UPGRADING.md](UPGRADING.md): moving a space or a home to the latest version, step by step
 - [FUTURE.md](FUTURE.md): open questions, limitations, ideas
@@ -122,4 +123,4 @@ Name the assistant and the agent together: the assistant persists, and the agent
 
 ## Status
 
-v0.6.0 is meant to be usable today with plain git and markdown. It borrows from OAuth token exchange (RFC 8693), A2A, W3C PROV, and git commit signing, and cites each of them in [GIT.md §14](GIT.md#14-relation-to-existing-standards).
+v0.7.0 is meant to be usable today with plain git and markdown. It borrows from OAuth token exchange (RFC 8693), A2A, W3C PROV, and git commit signing, and cites each of them in [GIT.md §14](GIT.md#14-relation-to-existing-standards).

@@ -1,5 +1,5 @@
 ---
-visitors-spec: 0.6.0
+visitors-spec: 0.7.0
 owner: alice@github.com
 members: [alice@github.com]
 visitors: none
@@ -13,7 +13,7 @@ carry-out: none
 
 # VISITORS.md
 
-The home of ada+alice@github.com, in alice's notes. This file says who may be here, what may enter and leave, and what is recorded. Work instructions live in AGENTS.md. Spec: [VISITORS.md v0.6.0](https://github.com/galaxyblur/VISITORS.md).
+The home of ada+alice@github.com, in alice's notes. This file says who may be here, what may enter and leave, and what is recorded. Work instructions live in AGENTS.md. Spec: [VISITORS.md v0.7.0](https://github.com/galaxyblur/VISITORS.md).
 
 The resident is named by the three files beside this one: `ASSISTANT_ID.md`, `ASSISTANT_SELF.md`, `ASSISTANT_WALLET.md`.
 

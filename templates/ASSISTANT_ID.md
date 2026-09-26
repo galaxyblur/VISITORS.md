@@ -1,5 +1,5 @@
 ---
-visitors-spec: 0.6.0
+visitors-spec: 0.7.0
 id: ada+alice@github.com
 name: Ada
 principal: alice@github.com
