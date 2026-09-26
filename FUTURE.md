@@ -19,6 +19,8 @@ What the spec leaves open, what it can't do, and ideas for later versions.
 - **Refreshing a carried set.** A carried set is a dated snapshot. How stale may it be before a session should refuse to wake from it?
 - **Where the home is, on record.** The visit record's `memory` field names the home, so every space a person visits learns where their notes live. Deliberate (the declaration rule), but a shared repo doesn't need the address. Option: allow `memory: private`, meaning "yes, elsewhere".
 - **"Started in", beyond git.** Worker or visitor turns on where a session started. A git checkout with a session hook makes that plain; a folder, a drive, a served API do not yet say what "started in" means.
+- **A report from a space with carry-out `none`.** Under `HANDOFF.md` a report copied to the desk is carry-out. Where carry-out is `none` and the person isn't the owner, no report leaves without the owner's release by name, and the director can't verify an outcome it can't see. Per-report releases, a standing release for reports, or verification by a worker in the space?
+- **Provenance of a relayed plan.** A transport that types a plan into a worker is indistinguishable from the person typing it (`HANDOFF.md`, Limits). Signing the approved text is the likely answer; HDP's signed hops (above) are one model.
 - **Beyond git.** Folder, drive, server, device and API spaces need concrete recording and chain formats. 0.5 lets such a space set `visit-log: none`, with the assistant recording at home, which is a floor and not a format.
 
 ## Limitations
