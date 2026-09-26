@@ -2,6 +2,10 @@
 
 Follows [Semantic Versioning](https://semver.org/).
 
+## Unreleased
+
+**New: `HANDOFF.md`, the third framework page.** `AGENTS.md` says how work is done, `VISITORS.md` who may be in a space, `HANDOFF.md` how a person's intent becomes a plan in a space and how the result comes back. A person asks; a worker in the space plans; the person approves; the worker executes; a director relays, records and verifies. Nobody outside a space plans its work. Roles: person, director, desk, ask, plan, worker, report, transport, and cross-space work through one primary space. It uses `SPEC.md`'s terms: the worker is its worker, the director is a visitor outside its desk, and an ask or plan reaches a worker as its person's direction, not through the board. Tool-agnostic; bindings come later, one per tool, the way `GIT.md` binds `SPEC.md`. Draft, on the same version line; ships with 0.7.0.
+
 ## 0.6.0 (2026-09-22)
 
 **Renamed: `VISITORS.md`.** The file every space carries is now `VISITORS.md`, its pin key `visitors-spec`, and the repo `galaxyblur/VISITORS.md`. The subject is whoever is in a space, so the name says so. The `ASSISTANT_*` home files keep their names: they are about an assistant. `templates/VISITORS.md` and `templates/VISITORS.home.md` replace the old templates. `assistants-visit` keeps its name (it wakes assistants), reads the new names, still reads the old ones, and no longer reads the pre-0.5 `resident` block. Entries below keep the old name.

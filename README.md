@@ -11,7 +11,7 @@ Who may be in a space, what they may bring in, what they may take out, and what 
 - What may be written down outside this space?
 - How do spaces leave word for each other?
 
-It applies to whoever is in the space: a person by hand, an agent, an assistant. It never says what work may be done. That is `AGENTS.md`.
+It applies to whoever is in the space: a person by hand, an agent, an assistant. It never says what work may be done. That is `AGENTS.md`. How a person's ask becomes a plan in a space, and how the result comes back: [HANDOFF.md](HANDOFF.md).
 
 One rule does most of the work: where you started decides what you may do. A session started in a space, as a member, is a **worker** and may change it. Everyone else is a **visitor**: it reads, and it may leave a message on the board. Nothing else.
 
@@ -112,6 +112,7 @@ Name the assistant and the agent together: the assistant persists, and the agent
 
 - [SPEC.md](SPEC.md): the framework. Person, identity, agent and assistant, space, policy, board, home, worker and visitor. A two-minute read
 - [GIT.md](GIT.md): the spec done in git and markdown: fields, files, formats. This was the spec through 0.5.0
+- [HANDOFF.md](HANDOFF.md): how a person's ask becomes a plan in a space, is approved, and comes back as a result. Person, director, desk, ask, plan, worker, report, transport. Draft, ships with 0.7.0
 - [EXAMPLES.md](EXAMPLES.md): ten short stories of the spec in use. Start here
 - [UPGRADING.md](UPGRADING.md): moving a space or a home to the latest version, step by step
 - [FUTURE.md](FUTURE.md): open questions, limitations, ideas
